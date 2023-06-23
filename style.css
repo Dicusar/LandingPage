@@ -29,7 +29,7 @@
 }
 
 .links > a:hover {
-    color: rgb(0, 0, 0);
+    color: rgb(0, 8, 239);
 }
 
 .two, .three {
@@ -161,4 +161,41 @@ blockquote {
 .quote-author {
     font-size: 25px;
     font-weight: bold;
+}
+
+/* ticket */
+.ticket {
+    display: flex;
+    justify-content: center;
+}
+
+.ticket-header {
+    border: 1px solid;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5vw;
+    background-color: rgb(76, 149, 251);
+    padding: 3vw 7vw;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.but {
+    color: #fff;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    border: 2px solid white;
+    background-color: rgb(76, 149, 251);
+    padding: 5px 25px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.but:hover {
+    color:black;
 }
