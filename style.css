@@ -29,7 +29,7 @@
 }
 
 .links > a:hover {
-    color: rgb(0, 8, 239);
+    color: rgb(0, 0, 0);
 }
 
 .two, .three {
@@ -198,4 +198,14 @@ blockquote {
 
 .but:hover {
     color:black;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(87, 100, 145);
+}
+
+footer {
+    padding: 3vw 0;
 }
