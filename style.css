@@ -125,16 +125,6 @@
     margin-top: 10px;
 }
 
-
-
-
-
-
-
-
-
-
-
 .info {
     color: rgb(61, 122, 255);
     padding: 5vw;
@@ -145,4 +135,30 @@
     height: 10vw;
     border: 5px solid rgb(84, 138, 245);
     border-radius: 15px;
+}
+
+/* quote */
+.quote {
+    background-color: rgb(235, 235, 235);
+    padding: 5vw;
+    margin: 5vw 0;
+    display: flex;
+    justify-content: center;
+}
+
+blockquote {
+    width: 60%;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.quote-content {
+    font-size: 25px;
+    text-align: center;
+}
+
+.quote-author {
+    font-size: 25px;
+    font-weight: bold;
 }
